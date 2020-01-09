@@ -3,7 +3,6 @@
 ## 使用方式
 ### 1.将javayh-boot-data-source作为项目模块
 - 通过mavem进配置
-这样有需要可以二次开发
 
 
      <dependency>
@@ -46,8 +45,8 @@
         
 ### 获取指定数据源
 
-        @DataSource(name = "core")
-        public void get(){
-            SysMenu sysMenu = menuMapper.findMenu("用户管理界面");
-            log.info("sysMenu ={}",sysMenu);
-        }         
+     @DataSource(name = "core")
+     public void get(){
+         SysMenu sysMenu = menuMapper.findMenu("用户管理界面");
+         log.info("sysMenu ={}",sysMenu);
+     }         
