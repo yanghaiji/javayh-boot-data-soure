@@ -4,19 +4,16 @@
 ### 1.将javayh-boot-data-source作为项目模块
 - 通过mavem进配置
 
-
+````
      <dependency>
           <groupId>com.javayh</groupId>
           <artifactId>javayh-boot-data-source</artifactId>
           version>1.0.0.RELEASE</version>
       </dependency>
-
+````
 - 配置文件
-
-
-
-
-    spring:
+````
+   spring:
       datasource:
         dynamic:
           enable: true #开启多数据源，如果不开启多数据源，改为false，
@@ -32,9 +29,8 @@
             username: root
             password: root
             driver-class-name:  com.mysql.jdbc.Driver
-
-
-
+````
+ 
 ### 数据源切换使用
 
         public void get(){
