@@ -14,6 +14,8 @@
 - 配置文件
 
 
+
+
     spring:
       datasource:
         dynamic:
@@ -30,6 +32,7 @@
             username: root
             password: root
             driver-class-name:  com.mysql.jdbc.Driver
+
 
 
 ### 数据源切换使用
