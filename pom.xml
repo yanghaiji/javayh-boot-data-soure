@@ -19,6 +19,31 @@
         <druid.version>1.1.10</druid.version>
     </properties>
 
+    <profiles>
+        <profile>
+            <id>rdc-private-repo</id>
+            <repositories>
+                <repository>
+                    <id>rdc-releases</id>
+                    <url>https://repo.rdc.aliyun.com/repository/118313-release-2q3zhs/</url>
+                </repository>
+                <repository>
+                    <id>rdc-snapshots</id>
+                    <url>https://repo.rdc.aliyun.com/repository/118313-snapshot-djT2qf/</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/118313-release-2q3zhs/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/118313-snapshot-djT2qf/</url>
+        </snapshotRepository>
+    </distributionManagement>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
