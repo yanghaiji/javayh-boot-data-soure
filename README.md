@@ -3,6 +3,7 @@
 ## 使用方式
 ### 1.将javayh-boot-data-source作为项目模块
 - 通过mavem进配置
+使用本方法,将讲项目中的settings.xml文件内容放置到USER_HOME/.m2/settings.xml中
 
 ````
      <dependency>
