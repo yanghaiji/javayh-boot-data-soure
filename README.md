@@ -1,4 +1,4 @@
-# javayh-data-soure 说明
+# javayh-boot-data-soure 说明
 
 <p align="center">
   <img src='https://img.shields.io/badge/license-Apache%202-4EB1BA.svg' alt='License'/>
@@ -13,6 +13,7 @@
 ## 使用方式
 ### 1.将javayh-boot-data-source作为项目模块
 - 通过mavem进配置
+使用本方法,将讲项目中的settings.xml文件内容放置到USER_HOME/.m2/settings.xml中,或者使用lib包提供的jar文件
 
 ````
      <dependency>
