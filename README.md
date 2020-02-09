@@ -1,5 +1,15 @@
 # javayh-data-soure 说明
 
+<p align="center">
+  <img src='https://img.shields.io/badge/license-Apache%202-4EB1BA.svg' alt='License'/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-2.0.3.RELEASE-blue" alt="Downloads"/>
+  <img src="https://img.shields.io/badge/Alibaba%20Druid-1.1.10-blue" alt="Downloads"/>
+  <img src="https://img.shields.io/badge/Spring%20Mybatis-1.3.2-blue" alt="Downloads"/>
+</p>
+
+### 如果您觉得有帮助，请点右上角 "Star" 支持一下谢谢
+
+
 ## 使用方式
 ### 1.将javayh-boot-data-source作为项目模块
 - 通过mavem进配置
