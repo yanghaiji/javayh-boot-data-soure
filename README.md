@@ -29,7 +29,7 @@
         dynamic:
           enable: true #开启多数据源，如果不开启多数据源，改为false，
         druid:
-          # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别)
+          # JDBC 配置(驱动类自动从url的mysql识别,数据源类型自动识别,可以配置多个驱动，这里仅以Mysql为例)
           core:  #关闭多数据时请去掉，走正常的配置即可
             url: jdbc:mysql://localhost:3306/db1?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
             username: root
