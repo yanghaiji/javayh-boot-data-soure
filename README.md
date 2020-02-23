@@ -22,6 +22,7 @@
           <version>1.0.0.RELEASE</version>
       </dependency>
 ````
+如果您在项目启动时出现循环调用，请在启动类加上 @EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 - 配置文件
 ````
    spring:
