@@ -19,7 +19,7 @@
      <dependency>
           <groupId>com.javayh</groupId>
           <artifactId>javayh-boot-data-source</artifactId>
-          version>1.0.0.RELEASE</version>
+          <version>1.0.0.RELEASE</version>
       </dependency>
 ````
 - 配置文件
